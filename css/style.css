@@ -18,6 +18,10 @@ body {
 
 
 }
+
+nav {
+	padding-top: 22px;
+}
 .nav-row {
 	font-size: large;
 	z-index: 100;
