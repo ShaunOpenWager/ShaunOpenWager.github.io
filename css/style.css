@@ -5,14 +5,16 @@ body {
 	color: white;
 	/*padding-right: 750px;
 	padding-left: 750px;*/
-	/*border-left: 500px;
-	border-right: 500px;*/
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
 #landing {
 	max-height: 450px;
 	max-width: 1200px;
 	border: 2px solid white;
+	margin-bottom: 25px;
+	margin-top: 75px;
 
 
 }
@@ -22,6 +24,7 @@ body {
 	top: 0;
 	position: fixed;
 	background-color: black;
+	margin-bottom: 10px;
 
 }
 
