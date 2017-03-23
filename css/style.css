@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+	background-color:black;
+	font-family: 'verdana';
+	color: white;
+	padding-right: 750px;
+	padding-left: 750px;
+	/*border-left: 500px;
+	border-right: 500px;*/
+}
+
+#landing {
+	max-height: 450px;
+	max-width: 1200px;
+	border: 2px solid white;
+
+
+}
+.nav-row {
+	font-size: large;
+	z-index: 100;
+	top: 0;
+	position: fixed;
+	background-color: black;
+
+}
+
+.portrait {
+	max-height: 250px;
+	max-width: auto;
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
+	font-size: x-large;
+	font-weight: 1000;
+	text-transform: uppercase;
+}
+
+a {
+	color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+.about {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 40px 50px 40px 50px;
+}
