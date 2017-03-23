@@ -22,7 +22,7 @@ body {
 nav {
 	padding-top: 22px;
 }
-.nav-row {
+.nav-fluid {
 	font-size: large;
 	z-index: 100;
 	top: 0;
