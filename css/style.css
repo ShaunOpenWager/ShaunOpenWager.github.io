@@ -3,8 +3,16 @@ body {
 	background-color:black;
 	font-family: 'verdana';
 	color: white;
-	margin-left: 550px;
-	margin-right: 550px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+p {
+	text-align: left;
+}
+
+h3 {
+	text-align: left;
 }
 
 #landing {
@@ -12,7 +20,7 @@ body {
 	max-width: 1200px;
 	border: 2px solid white;
 	margin-bottom: 25px;
-	margin-top: 75px;
+	margin-top: 100px;
 
 
 }
@@ -20,7 +28,7 @@ body {
 nav {
 	padding-top: 22px;
 }
-.nav-row {
+.nav-row-fluid {
 	font-size: large;
 	z-index: 100;
 	top: 0;
@@ -58,6 +66,7 @@ a {
 img {
 	max-width: 100%;
 }
+
 
 img.job {
 	margin-top: 10px;
