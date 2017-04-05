@@ -1,10 +1,31 @@
+@keyframes	colorize	{
+		5%			{		
+		filter:grayscale(100%);
+		}	
+		10%	{		
+		filter:grayscale(80%);
+		}	
+		25% {
+		filter:grayscale(60%);
+		}
+		50 {
+		filter:grayscale(40%);
+		}
+		75% {
+		filter:grayscale(20%);
+		}
+		100% {
+		filter:grayscale(0%);
+		}
+}
+
 body {
 	text-align: center;
 	background-color:black;
 	font-family: 'verdana';
 	color: white;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 175px;
+	margin-right: 175px;
 }
 
 p {
@@ -42,8 +63,20 @@ nav {
 }
 
 .portrait {
+	animation: colorize 5s linear infinite;
+	transition: all 1s ease-in-out;
 	max-height: 200px;
 	max-width: auto;
+}
+
+
+#gameImage {
+	border: 2px solid white;
+}
+
+.gameImage:hover {
+	  transform: scale(1.1);
+
 }
 
 h1 {
@@ -57,6 +90,11 @@ h1 {
 	font-size: x-large;
 	font-weight: 1000;
 	text-transform: uppercase;
+}
+
+h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 a {
@@ -75,13 +113,8 @@ img.job {
 	max-height: 50%;
 }
 
-img:hover {
-	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
-	-webkit-filter:grayscale(100%);
-	        filter:grayscale(100%);
-}
 
-.about-row {
+.about-row-fluiid {
 	padding-top:  10px;
 	padding-bottom: 50px;
 
