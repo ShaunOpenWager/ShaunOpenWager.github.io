@@ -187,3 +187,9 @@ img.job {
     	margin-top: 225px;
     }
     }
+
+ @media only screen and (max-width: 525px) {
+    #landing {
+    	margin-top: 150px;
+    }
+    }
