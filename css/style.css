@@ -3,8 +3,6 @@ body {
 	background-color:black;
 	font-family: 'verdana';
 	color: white;
-	/*padding-right: 750px;
-	padding-left: 750px;*/
 	margin-left: 550px;
 	margin-right: 550px;
 }
@@ -27,7 +25,8 @@ nav {
 	z-index: 100;
 	top: 0;
 	position: fixed;
-	object-position: center;
+	-o-object-position: center;
+	   object-position: center;
 	background-color: black;
 	margin-bottom: 10px;
 
@@ -40,8 +39,13 @@ nav {
 }
 
 h1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	font-size: x-large;
 	font-weight: 1000;
 	text-transform: uppercase;
@@ -62,15 +66,22 @@ img.job {
 	max-height: 50%;
 }
 
+img:hover {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter:grayscale(100%);
+	        filter:grayscale(100%);
+}
+
 .about-row {
-	margin-top:  10px;
-	margin-bottom: 10px;
+	padding-top:  10px;
+	padding-bottom: 50px;
 
 
 }
-.games-row {
-	margin-top:  10px;
-	margin-bottom: 10px;
+
+#games {
+	padding-top:  10px;
+	padding-bottom: 50px;
 
 		
 }
