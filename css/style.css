@@ -1,21 +1,66 @@
-@keyframes	colorize	{
+@-webkit-keyframes	colorize	{
 		5%			{		
-		filter:grayscale(100%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');		
+		-webkit-filter:grayscale(100%);		
+		        filter:grayscale(100%);
 		}	
 		10%	{		
-		filter:grayscale(80%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.37007999999999996 0.57216 0.057760000000000006 0 0 0.17008 0.77216 0.057760000000000006 0 0 0.17008 0.57216 0.25775999999999993 0 0 0 0 0 1 0" /></filter></svg>#filter');		
+		-webkit-filter:grayscale(80%);		
+		        filter:grayscale(80%);
 		}	
 		25% {
-		filter:grayscale(60%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.52756 0.42911999999999995 0.04332 0 0 0.12756 0.82912 0.04332 0 0 0.12756 0.42911999999999995 0.44332 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(60%);
+		        filter:grayscale(60%);
 		}
 		50 {
-		filter:grayscale(40%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.68504 0.28608 0.028880000000000003 0 0 0.08504 0.88608 0.028880000000000003 0 0 0.08504 0.28608 0.62888 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(40%);
+		        filter:grayscale(40%);
 		}
 		75% {
-		filter:grayscale(20%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.84252 0.14303999999999994 0.014439999999999995 0 0 0.04252 0.94304 0.014439999999999995 0 0 0.04252 0.14303999999999994 0.81444 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(20%);
+		        filter:grayscale(20%);
 		}
 		100% {
-		filter:grayscale(0%);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(0%);
+		        filter:grayscale(0%);
+		}
+}
+
+@keyframes	colorize	{
+		5%			{		
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');		
+		-webkit-filter:grayscale(100%);		
+		        filter:grayscale(100%);
+		}	
+		10%	{		
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.37007999999999996 0.57216 0.057760000000000006 0 0 0.17008 0.77216 0.057760000000000006 0 0 0.17008 0.57216 0.25775999999999993 0 0 0 0 0 1 0" /></filter></svg>#filter');		
+		-webkit-filter:grayscale(80%);		
+		        filter:grayscale(80%);
+		}	
+		25% {
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.52756 0.42911999999999995 0.04332 0 0 0.12756 0.82912 0.04332 0 0 0.12756 0.42911999999999995 0.44332 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(60%);
+		        filter:grayscale(60%);
+		}
+		50 {
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.68504 0.28608 0.028880000000000003 0 0 0.08504 0.88608 0.028880000000000003 0 0 0.08504 0.28608 0.62888 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(40%);
+		        filter:grayscale(40%);
+		}
+		75% {
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.84252 0.14303999999999994 0.014439999999999995 0 0 0.04252 0.94304 0.014439999999999995 0 0 0.04252 0.14303999999999994 0.81444 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(20%);
+		        filter:grayscale(20%);
+		}
+		100% {
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+		-webkit-filter:grayscale(0%);
+		        filter:grayscale(0%);
 		}
 }
 
@@ -70,7 +115,9 @@ nav {
 }
 
 .portrait {
-	animation: colorize 5s linear infinite;
+	-webkit-animation: colorize 5s linear infinite;
+	        animation: colorize 5s linear infinite;
+	-webkit-transition:all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 	max-height: 200px;
 	max-width: auto;
@@ -82,7 +129,8 @@ nav {
 }
 
 .gameImage:hover {
-	  transform: scale(1.1);
+	  -webkit-transform: scale(1.1);
+	          transform: scale(1.1);
 
 }
 
