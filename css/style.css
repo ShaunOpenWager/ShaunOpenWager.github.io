@@ -83,7 +83,6 @@ h3 {
 
 #landing {
 	max-height: 450px;
-	max-width: 1200px;
 	border: 2px solid white;
 	margin-bottom: 25px;
 	margin-top: 100px;
@@ -182,3 +181,9 @@ img.job {
 
 		
 }
+
+@media only screen and (max-width: 1000px) {
+    #landing {
+    	margin-top: 225px;
+    }
+    }
