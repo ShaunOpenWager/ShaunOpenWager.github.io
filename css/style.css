@@ -193,3 +193,10 @@ img.job {
     	margin-top: 150px;
     }
     }
+
+    @media only screen and (max-width: 525px) {
+    body {
+    	margin-left: 75px;
+    	margin-right: 75px;
+    }
+    }
