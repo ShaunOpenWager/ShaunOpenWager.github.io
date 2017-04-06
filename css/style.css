@@ -98,8 +98,9 @@ h3 {
 }
 
 nav {
-	padding-top: 22px;
+	margin-top: 22px;
 }
+
 .nav-row-fluid {
 	font-size: large;
 	z-index: 100;
